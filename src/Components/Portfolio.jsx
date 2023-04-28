@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/man-robot-innovating.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Man sitting in front of a desktop with a laptop accompanied by a robot with a laptop sitting on a lightbulb";
 
 /**
  * Project list
