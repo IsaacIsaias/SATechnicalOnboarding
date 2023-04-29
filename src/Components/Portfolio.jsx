@@ -31,28 +31,22 @@ const imageAltText = "Man sitting in front of a desktop with a laptop accompanie
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Seafood Classifiers by means of AI-based Algorithms",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Investigation about AI/DL. A Python-code implementation using CNNs, Keras, and TensorFlow; a no-code implementation using Azure Custom Vision API.",
+    url: "https://github.com/IsaacIsaias/seafood-classifiers",
   },
   {
-    title: "Web Development for Beginners",
+    title: 'Dataset: "unam_tesis"',
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      'Dataset created for the "Hackathon 2022 de PLN en Español" organized by "Somos NLP"; in which 1,000 theses of five different careers of the UNAM were collected.',
+    url: "https://huggingface.co/datasets/hackathon-pln-es/unam_tesis",
   },
   {
-    title: "My Resume Site",
+    title: "Clasificador de Tesis",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      'Thesis text classifier according to the career to which it belongs for the "Hackathon 2022 de PLN en Español" organized by "Somos NLP".',
+    url: "https://huggingface.co/spaces/hackathon-pln-es/clasificador-de-tesis",
   },
 ];
 
