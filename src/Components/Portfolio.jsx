@@ -21,7 +21,8 @@ import React from "react";
  */
 import image from "../images/man-robot-innovating.png";
 
-const imageAltText = "Man sitting in front of a desktop with a laptop accompanied by a robot with a laptop sitting on a lightbulb";
+const imageAltText =
+  "Man sitting in front of a desktop with a laptop accompanied by a robot with a laptop sitting on a lightbulb";
 
 /**
  * Project list
@@ -58,7 +59,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
