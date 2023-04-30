@@ -1,10 +1,11 @@
 /**
- * Entry point of application, where App is rendered within the div with the id of "app" 
+ * Entry point of application, where App is rendered within the div with the id of "app"
  */
 
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom/client";
 
 import App from "./App";
 
-render(<App></App>, document.getElementById("app"));
+const app = ReactDOM.createRoot(document.getElementById("app"));
+app.render(<App />);
