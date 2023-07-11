@@ -6,6 +6,7 @@
  */
 
 import React from "react";
+import { Link } from "react-scroll";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
@@ -20,7 +21,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/just-me.jpg";
+import image from "../images/just-me.svg";
 
 const imageAltText =
   "Young adult male smiling with a space background before taking a Microsoft Certification exam";
@@ -34,15 +35,17 @@ const Home = ({ name, title }) => {
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img
-          src={arrowSvg}
-          style={{
-            height: "3rem",
-            width: "3rem",
-            animation: "bounce 2s ease infinite",
-          }}
-          alt={imageAltText}
-        />
+        <Link className="arrow-link" smooth spy duration={500} to="about">
+          <img
+            src={arrowSvg}
+            style={{
+              height: "3rem",
+              width: "3rem",
+              animation: "bounce 2s ease infinite",
+            }}
+            alt={imageAltText}
+          />
+        </Link>
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Isaac Isaías",
-  title: "α MLSA | 🚩GCE Trainee | Axi-Xahni Founder",
+  title: "α MLSA | 🚩GCE Trainee | Aki-Xahni Founder",
   email: "isaac.lopez@studentambassadors.com",
   gitHub: "IsaacIsaias",
   instagram: "isaac11isaias",

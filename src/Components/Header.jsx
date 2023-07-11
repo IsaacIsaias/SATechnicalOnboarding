@@ -5,6 +5,7 @@
  * user scrolls so that they can constantly reach any part of your page.
  */
 import React from "react";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -21,11 +22,21 @@ const Header = () => {
         zIndex: 10,
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#education">Education</a>
-      <a href="#footer">Contact</a>
+      <Link className="active" smooth spy duration={700} to="home">
+        Home
+      </Link>
+      <Link className="active" smooth spy duration={700} to="about">
+        About
+      </Link>
+      <Link className="active" smooth spy duration={700} to="portfolio">
+        Portfolio
+      </Link>
+      <Link className="active" smooth spy duration={700} to="education">
+        Education
+      </Link>
+      <Link className="active" smooth spy duration={700} to="footer">
+        Contact
+      </Link>
     </div>
   );
 };
